@@ -236,12 +236,12 @@ z_scan_limits = [min(params.scan.z_axis(:)) max(params.scan.z_axis(:))] ;
 if x_scan_limits(1)<min(x) || x_scan_limits(2)>max(x)
     x_index_limit = [1 length(x)];
 else
-    x_index_limit = index_finder(x_scan_limits, x(:)) ;
+    x_index_limit = find_index(x_scan_limits, x(:)) ;
 end
 if z_scan_limits(1)<min(z) || z_scan_limits(2)>max(z)
     z_index_limit = [1 length(z)];
 else
-    z_index_limit = index_finder(z_scan_limits, z(:)) ;
+    z_index_limit = find_index(z_scan_limits, z(:)) ;
 end
 
 x = x(x_index_limit(1):x_index_limit(2)) ;
