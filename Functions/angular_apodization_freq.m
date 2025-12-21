@@ -1,4 +1,4 @@
-function taper_mask = taper_window(ku, kv, k, angle_apodization, taper_type, taper_length)
+function taper_mask = angular_apodization_freq(ku, kv, k, angle_apodization, taper_type, taper_length)
 
 if nargin<4
     taper_type= '' ;

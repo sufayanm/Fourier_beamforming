@@ -1,4 +1,4 @@
-function taper_mask = angular_apodization(X, Z, ele_x, angle_apodization, taper_type, taper_length)
+function taper_mask = angular_apodization_time(X, Z, ele_x, angle_apodization, taper_type, taper_length)
 
 if nargin<4
     taper_type= '' ;

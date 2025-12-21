@@ -7,6 +7,8 @@ addpath("Functions\")
 
 load Phantom_data.mat
 
+channel_data = single(channel_data) ;
+
 %% Run wavenumber algorithm
 
 [wa_image, params_wa] = Wavenumber_algorithm(channel_data, params) ;
@@ -57,7 +59,7 @@ ylim(Y_lim)
 xlim(X_lim)
 yticklabels([])
 
-xx_label = xlabel(gca, 'x [mm]') ;
+xlabel(gca, 'x [mm]') ;
 
 
 nexttile
