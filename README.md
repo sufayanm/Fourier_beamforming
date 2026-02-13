@@ -1,4 +1,7 @@
 # Delay-and-Sum Consistent Fourier beamforming
+
+[![DOI](https://zenodo.org/badge/1119511884.svg)](https://doi.org/10.5281/zenodo.18633756)
+
 This repository contains a MATLAB implementation of the image reconstruction methods used in:
 
 S. Mulani, M. S. Ziksari, A. Austeng, and S. P. Näsholm, **“Delay-and-Sum Consistent Wavenumber Algorithm,”** IEEE Transactions on Ultrasonics, 2026 (under review).
