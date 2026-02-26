@@ -4,7 +4,9 @@
 
 This repository contains a MATLAB implementation of the image reconstruction methods used in:
 
-S. Mulani, M. S. Ziksari, A. Austeng, and S. P. Näsholm, **“Delay-and-Sum Consistent Wavenumber Algorithm,”** IEEE Transactions on Ultrasonics, 2026 (under review).
+S. Mulani, M. S. Ziksari, A. Austeng and S. P. Näsholm, **"Delay-and-Sum Consistent Wavenumber Algorithm,"** IEEE Transactions on Ultrasonics, 2026, doi: 10.1109/TUSON.2026.3667456.
+
+
 
 ---
 
@@ -43,7 +45,7 @@ The repository also includes a phantom dataset acquired using a Verasonics ultra
 
 If you use this code in your research or build upon this work, please cite the following paper:
 
-S. Mulani, M. S. Ziksari, A. Austeng, and S. P. Näsholm, “Delay-and-Sum Consistent Wavenumber Algorithm,” IEEE Transactions on Ultrasonics, 2026 (under review).
+S. Mulani, M. S. Ziksari, A. Austeng and S. P. Näsholm, "Delay-and-Sum Consistent Wavenumber Algorithm," IEEE Transactions on Ultrasonics, 2026, doi: 10.1109/TUSON.2026.3667456.
 
 
 ### BibTeX
@@ -54,7 +56,7 @@ S. Mulani, M. S. Ziksari, A. Austeng, and S. P. Näsholm, “Delay-and-Sum Consi
   title   = {Delay-and-Sum Consistent Wavenumber Algorithm},
   journal = {IEEE Transactions on Ultrasonics},
   year    = {2026},
-  note = {Under review}
+  doi={10.1109/TUSON.2026.3667456}}
 }
 ```
 
