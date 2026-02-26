@@ -56,7 +56,7 @@ S. Mulani, M. S. Ziksari, A. Austeng and S. P. Näsholm, "Delay-and-Sum Consiste
   title   = {Delay-and-Sum Consistent Wavenumber Algorithm},
   journal = {IEEE Transactions on Ultrasonics},
   year    = {2026},
-  doi={10.1109/TUSON.2026.3667456}}
+  doi     = {10.1109/TUSON.2026.3667456}
 }
 ```
 
